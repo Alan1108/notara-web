@@ -1,0 +1,95 @@
+/* Shared styles for Notara legal pages. Same tokens as index.html (DESIGN.md). */
+:root {
+  --bg: #F8F9FB; --surface: #FFFFFF; --surface-muted: #F1F3F6;
+  --text: #111318; --text-2: #5F6672; --border: #E4E7EC;
+  --accent: #7C5CFF; --tint: #DCD3FF; --on: #5B3FD9;
+  --warn-bg: #FFF4E5; --warn-text: #7A4A00;
+  --shadow: 0 8px 24px rgba(17,19,24,.08);
+  --brand: linear-gradient(120deg, #3B82F6 0%, #7C5CFF 45%, #FF8A5B 100%);
+  --font: "Plus Jakarta Sans", ui-rounded, -apple-system, "Segoe UI", Roboto, system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1115; --surface: #1A1D23; --surface-muted: #23272F;
+    --text: #F2F4F7; --text-2: #A3AAB6; --border: #2E333C;
+    --tint: #2A2250; --on: #A996FF;
+    --warn-bg: #3A2A12; --warn-text: #FFD08A;
+    --shadow: 0 0 0 1px #2E333C;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1115; --surface: #1A1D23; --surface-muted: #23272F;
+  --text: #F2F4F7; --text-2: #A3AAB6; --border: #2E333C;
+  --tint: #2A2250; --on: #A996FF;
+  --warn-bg: #3A2A12; --warn-text: #FFD08A;
+  --shadow: 0 0 0 1px #2E333C;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 400 16px/1.65 var(--font); -webkit-font-smoothing: antialiased; }
+a { color: var(--on); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+.wrap { width: 100%; max-width: 1140px; margin: 0 auto; padding-inline: 24px; }
+@media (max-width: 480px) { .wrap { padding-inline: 16px; } }
+
+.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+.nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; font-size: 21px; letter-spacing: -.02em; }
+.brand svg { width: 30px; height: 30px; }
+.nav-end { display: flex; align-items: center; gap: 16px; }
+.back { font-size: 14px; font-weight: 600; color: var(--text-2); text-decoration: none; }
+.back:hover { color: var(--text); }
+.theme { display: inline-flex; padding: 3px; border-radius: 999px; background: var(--surface-muted); }
+.theme button { width: 34px; height: 34px; border-radius: 50%; border: 0; background: none; color: var(--text-2); cursor: pointer; display: grid; place-items: center; }
+.theme button svg { width: 17px; height: 17px; }
+.theme button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(17,19,24,.12); }
+.lang button { font: 700 12px/1 var(--font); letter-spacing: .02em; }
+@media (max-width: 440px) { .back { display: none; } }
+
+.head { background: linear-gradient(180deg, var(--bg) 0%, var(--bg) 30%, var(--tint) 100%); padding-block: 64px 48px; }
+.head .wrap { display: grid; gap: 14px; }
+.eyebrow { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--on); }
+h1 { margin: 0; font-size: clamp(36px, 5.4vw, 60px); line-height: 1.05; font-weight: 800; letter-spacing: -.035em; text-wrap: balance; }
+.updated { color: var(--text-2); font-size: 15px; }
+.draft { justify-self: start; display: inline-flex; gap: 8px; align-items: center; background: var(--warn-bg); color: var(--warn-text); font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 12px; }
+
+.body { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 64px; padding-block: 56px 96px; align-items: start; }
+.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 92px); display: grid; gap: 4px; font-size: 14px; }
+.toc b { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-2); margin-bottom: 8px; }
+.toc a { color: var(--text-2); text-decoration: none; padding: 5px 0; line-height: 1.35; }
+.toc a:hover { color: var(--text); }
+@media (max-width: 860px) { .body { grid-template-columns: 1fr; gap: 32px; } .toc { position: static; border: 1px solid var(--border); border-radius: 20px; padding: 18px 20px; background: var(--surface); } }
+
+article { max-width: 68ch; min-width: 0; }
+article section { padding-top: 8px; margin-bottom: 40px; scroll-margin-top: 92px; }
+article h2 { font-size: 24px; line-height: 1.25; font-weight: 700; letter-spacing: -.02em; margin: 0 0 12px; text-wrap: balance; }
+article h3 { font-size: 17px; font-weight: 600; margin: 20px 0 6px; }
+article p, article ul { margin: 0 0 12px; color: var(--text-2); }
+article strong { color: var(--text); font-weight: 600; }
+article ul { padding-left: 20px; display: grid; gap: 6px; }
+.ph { background: var(--warn-bg); color: var(--warn-text); border-radius: 4px; padding: 0 5px; font-weight: 500; }
+
+.summary { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; margin-bottom: 48px; }
+.summary div { background: var(--surface); box-shadow: var(--shadow); border-radius: 20px; padding: 18px 20px; display: grid; gap: 4px; }
+.summary b { font-size: 16px; }
+.summary span { color: var(--text-2); font-size: 14px; line-height: 1.5; }
+@media (max-width: 560px) { .summary { grid-template-columns: 1fr; } }
+
+.table-wrap { overflow-x: auto; margin: 8px 0 16px; border: 1px solid var(--border); border-radius: 16px; }
+table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; }
+th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { font-weight: 600; background: var(--surface-muted); }
+td { color: var(--text-2); }
+tr:last-child td { border-bottom: 0; }
+
+footer { padding-block: 40px; border-top: 1px solid var(--border); font-size: 14px; color: var(--text-2); }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+footer nav { display: flex; flex-wrap: wrap; gap: 20px; }
+footer a { color: var(--text-2); text-decoration: none; }
+footer a:hover, footer a[aria-current="page"] { color: var(--text); }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
