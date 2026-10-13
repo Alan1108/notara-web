@@ -40,7 +40,6 @@ export default function LegalLayout({ lang, title, toc, current, children }) {
           <span className="eyebrow">{l.eyebrow}</span>
           <h1>{title}</h1>
           <p className="updated">{l.effective} {l.effectiveDate} · {l.updated}</p>
-          <span className="draft">{l.draft}</span>
         </div></div>
         <div className="wrap body">
           <nav className="toc" aria-label={l.toc}><b>{l.toc}</b>{toc.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav>

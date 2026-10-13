@@ -55,7 +55,6 @@ a { color: var(--on); text-underline-offset: 3px; }
 .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--on); }
 h1 { margin: 0; font-size: clamp(36px, 5.4vw, 60px); line-height: 1.05; font-weight: 800; letter-spacing: -.035em; text-wrap: balance; }
 .updated { color: var(--text-2); font-size: 15px; }
-.draft { justify-self: start; display: inline-flex; gap: 8px; align-items: center; background: var(--warn-bg); color: var(--warn-text); font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 12px; }
 
 .body { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 64px; padding-block: 56px 96px; align-items: start; }
 .toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 92px); display: grid; gap: 4px; font-size: 14px; }
