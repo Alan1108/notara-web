@@ -13,7 +13,7 @@ Routes: `/` (home), `/privacidad` and `/terminos` (Spanish), `/privacy` and `/te
 
 The original stylesheets are kept verbatim in `src/styles/` and each page injects only its own
 stylesheet, so the home and legal pages render exactly like the static versions.
-When deploying `dist/`, configure the host to fall back to `index.html` for unknown paths (SPA routing).
+When deploying `dist/`, configure the host to fall back to `index.html` for unknown paths (SPA routing). On Vercel this is done by the rewrite in `vercel.json`.
 
 `pnpm-workspace.yaml` allows esbuild's install script (pnpm blocks dependency build scripts by default; Vite needs esbuild's binary).
 
