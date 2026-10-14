@@ -402,6 +402,7 @@ export default function Home() {
             <a href="#preguntas">{common.help}</a>
             <Link to={PATHS[lang].terms}>{common.terms}</Link>
             <Link to={PATHS[lang].privacy}>{common.privacy}</Link>
+            <Link to={PATHS[lang].deletion}>{common.deleteAccount}</Link>
             <LanguageLinks />
           </nav>
           <span>© 2026 Notara</span>

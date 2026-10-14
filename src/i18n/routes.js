@@ -1,7 +1,7 @@
 // Localized addresses for the legal pages. The address decides the language it is shown in.
 export const PATHS = {
-  es: { privacy: '/privacidad', terms: '/terminos' },
-  en: { privacy: '/privacy', terms: '/terms' },
+  es: { privacy: '/privacidad', terms: '/terminos', deletion: '/eliminar-cuenta' },
+  en: { privacy: '/privacy', terms: '/terms', deletion: '/delete-account' },
 };
 
 // Returns { page, lang } when the path is a localized legal page, otherwise null.
