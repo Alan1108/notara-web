@@ -6,6 +6,7 @@ export const COMMON = {
     footerAria: 'Pie de página',
     terms: 'Términos y condiciones',
     privacy: 'Aviso de privacidad',
+    deleteAccount: 'Eliminar cuenta',
     help: 'Ayuda',
     legal: {
       back: '← Volver al inicio',
@@ -22,6 +23,7 @@ export const COMMON = {
     footerAria: 'Footer',
     terms: 'Terms and conditions',
     privacy: 'Privacy notice',
+    deleteAccount: 'Delete account',
     help: 'Help',
     legal: {
       back: '← Back to home',

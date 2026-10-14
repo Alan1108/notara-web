@@ -51,6 +51,7 @@ export default function LegalLayout({ lang, title, toc, current, children }) {
         <nav aria-label={common.footerAria}>
           <Link to={paths.terms} aria-current={current === 'terms' ? 'page' : undefined}>{common.terms}</Link>
           <Link to={paths.privacy} aria-current={current === 'privacy' ? 'page' : undefined}>{common.privacy}</Link>
+          <Link to={paths.deletion} aria-current={current === 'deletion' ? 'page' : undefined}>{common.deleteAccount}</Link>
           <Link to="/#preguntas">{common.help}</Link>
         </nav>
         <span>© 2026 Notara</span>

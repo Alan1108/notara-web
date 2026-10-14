@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import LegalLayout from '../components/LegalLayout';
 
 const TITLE = { es: 'Aviso de privacidad', en: 'Privacy notice' };
@@ -40,7 +41,7 @@ function BodyEs() {
         <div><b>📱 Tu voz se queda en tu teléfono</b><span>El audio se graba y se transcribe en tu dispositivo. No lo subimos para transcribirlo.</span></div>
         <div><b>☁️ La nube solo cuando tú la usas</b><span>Si pides un resumen, un quiz o usas el chat, enviamos el texto necesario para generarlo.</span></div>
         <div><b>🚫 No vendemos tus datos</b><span>No hay publicidad en Notara y no compartimos tus notas con anunciantes.</span></div>
-        <div><b>🗑️ Tú decides cuándo borrar</b><span>Puedes descargar o eliminar tus notas y tu cuenta desde la app.</span></div>
+        <div><b>🗑️ Tú decides cuándo borrar</b><span>Puedes eliminar tus notas y tu cuenta desde la app, y pedirnos una copia de tus datos.</span></div>
       </div>
       <p>Este aviso explica qué datos trata Notara, para qué, dónde se procesan y qué puedes hacer con ellos. Aplica a la app Notara para iPhone y Android y a este sitio web.</p>
 
@@ -52,7 +53,7 @@ function BodyEs() {
         <h3>Cuenta (opcional)</h3><p>Solo si creas una cuenta: tu correo electrónico o el identificador que te da Apple o Google al iniciar sesión, y tu nombre si decides compartirlo.</p>
         <h3>"Sobre ti" (opcional)</h3><p>Ocupación, nivel de estudios, rango de edad y país, si eliges responder. Puedes saltarte esta pantalla y cambiar o borrar tus respuestas en Cuenta.</p>
         <h3>Suscripción</h3><p>Tu plan, fechas de renovación y el estado de tu compra. El pago lo procesan Apple o Google; nunca vemos los datos de tu tarjeta.</p>
-        <h3>Datos técnicos y de uso</h3><p>Modelo de dispositivo, versión del sistema y de la app, errores y eventos de uso anónimos (por ejemplo, "se creó un resumen"), sin el contenido de tus notas. Puedes desactivar la analítica anónima en Privacidad y datos.</p>
+        <h3>Datos técnicos y de uso</h3><p>Modelo de dispositivo, versión del sistema y de la app, errores y eventos de uso anónimos (por ejemplo, "se creó un resumen"), sin el contenido de tus notas.</p>
         <h3>Soporte</h3><p>Lo que nos escribas cuando pides ayuda.</p>
       </section>
 
@@ -98,11 +99,11 @@ function BodyEs() {
 
       <section id="derechos"><h2>Tus derechos y cómo ejercerlos</h2><p>Puedes acceder a tus datos, corregirlos, eliminarlos, oponerte a ciertos usos y pedir una copia en un formato que puedas llevarte. Muchas de estas acciones las haces tú mismo en la app:</p>
         <ul>
-          <li><strong>Descargar tus datos:</strong> Cuenta → Privacidad y datos → Descargar mis datos.</li>
-          <li><strong>Borrar tus notas o tu cuenta:</strong> Cuenta → Privacidad y datos.</li>
-          <li><strong>Desactivar la analítica anónima</strong> o cambiar tus respuestas de "Sobre ti".</li>
+          <li><strong>Borrar tus notas.</strong></li>
+          <li><strong>Borrar tu cuenta:</strong> Cuenta (arriba a la derecha) → Eliminar cuenta. Si ya no tienes la app, sigue los pasos de <Link to="/eliminar-cuenta">Elimina tu cuenta de Notara</Link>.</li>
+          <li><strong>Cambiar o borrar tus respuestas de "Sobre ti"</strong> en Cuenta.</li>
         </ul>
-        <p>Para cualquier otra solicitud, escríbenos a <a href="mailto:privacidad@notaraapp.com">privacidad@notaraapp.com</a>. Te responderemos en un plazo máximo de 15 días. Si no estás conforme con nuestra respuesta, puedes acudir a la autoridad de protección de datos de tu país.</p>
+        <p>Para pedir una copia de tus datos o hacer cualquier otra solicitud, escríbenos a <a href="mailto:privacidad@notaraapp.com">privacidad@notaraapp.com</a>. Te responderemos en un plazo máximo de 15 días. Si no estás conforme con nuestra respuesta, puedes acudir a la autoridad de protección de datos de tu país.</p>
       </section>
 
       <section id="menores"><h2>Menores de edad</h2><p>Notara no está dirigida a menores de 15 años. Si eres menor de 18, necesitas el permiso de tu madre, padre o tutor para crear una cuenta. Si crees que un menor nos dio datos sin ese permiso, escríbenos y los borraremos.</p></section>
@@ -123,7 +124,7 @@ function BodyEn() {
         <div><b>📱 Your voice stays on your phone</b><span>Audio is recorded and transcribed on your device. We don't upload it to transcribe it.</span></div>
         <div><b>☁️ The cloud only when you use it</b><span>If you ask for a summary or a quiz, or use the chat, we send the text needed to generate it.</span></div>
         <div><b>🚫 We don't sell your data</b><span>There are no ads in Notara and we don't share your notes with advertisers.</span></div>
-        <div><b>🗑️ You decide when to delete</b><span>You can download or delete your notes and your account from the app.</span></div>
+        <div><b>🗑️ You decide when to delete</b><span>You can delete your notes and your account from the app, and ask us for a copy of your data.</span></div>
       </div>
       <p>This notice explains what data Notara processes, why, where it is processed and what you can do about it. It applies to the Notara app for iPhone and Android and to this website.</p>
 
@@ -135,7 +136,7 @@ function BodyEn() {
         <h3>Account (optional)</h3><p>Only if you create an account: your email address or the identifier Apple or Google gives you when you sign in, and your name if you choose to share it.</p>
         <h3>"About you" (optional)</h3><p>Occupation, education level, age range and country, if you choose to answer. You can skip this screen and change or delete your answers in Account.</p>
         <h3>Subscription</h3><p>Your plan, renewal dates and the status of your purchase. Payment is processed by Apple or Google; we never see your card details.</p>
-        <h3>Technical and usage data</h3><p>Device model, system and app version, errors and anonymous usage events (for example, "a summary was created"), without the content of your notes. You can turn off anonymous analytics in Privacy and data.</p>
+        <h3>Technical and usage data</h3><p>Device model, system and app version, errors and anonymous usage events (for example, "a summary was created"), without the content of your notes.</p>
         <h3>Support</h3><p>Whatever you write to us when you ask for help.</p>
       </section>
 
@@ -181,11 +182,11 @@ function BodyEn() {
 
       <section id="derechos"><h2>Your rights and how to exercise them</h2><p>You can access, correct and delete your data, object to certain uses and request a copy in a format you can take with you. You can do many of these things yourself in the app:</p>
         <ul>
-          <li><strong>Download your data:</strong> Account → Privacy and data → Download my data.</li>
-          <li><strong>Delete your notes or your account:</strong> Account → Privacy and data.</li>
-          <li><strong>Turn off anonymous analytics</strong> or change your "About you" answers.</li>
+          <li><strong>Delete your notes.</strong></li>
+          <li><strong>Delete your account:</strong> Account (top right) → Delete account. If you no longer have the app, follow the steps in <Link to="/delete-account">Delete your Notara account</Link>.</li>
+          <li><strong>Change or delete your "About you" answers</strong> in Account.</li>
         </ul>
-        <p>For any other request, write to us at <a href="mailto:privacidad@notaraapp.com">privacidad@notaraapp.com</a>. We will respond within 15 days. If you are not satisfied with our response, you can contact the data protection authority in your country.</p>
+        <p>To ask for a copy of your data or make any other request, write to us at <a href="mailto:privacidad@notaraapp.com">privacidad@notaraapp.com</a>. We will respond within 15 days. If you are not satisfied with our response, you can contact the data protection authority in your country.</p>
       </section>
 
       <section id="menores"><h2>Minors</h2><p>Notara is not directed at children under 15. If you are under 18, you need permission from your parent or guardian to create an account. If you believe a minor gave us data without that permission, write to us and we will delete it.</p></section>

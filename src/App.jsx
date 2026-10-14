@@ -3,6 +3,7 @@ import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Privacidad from './pages/Privacidad';
 import Terminos from './pages/Terminos';
+import EliminarCuenta from './pages/EliminarCuenta';
 
 // Scrolls to #hash targets after route changes (e.g. "/#preguntas" from a legal page), otherwise to the top.
 // Language switches between /privacidad and /privacy keep the scroll position.
@@ -29,6 +30,8 @@ export default function App() {
         <Route path="/terminos" element={<Terminos lang="es" />} />
         <Route path="/privacy" element={<Privacidad lang="en" />} />
         <Route path="/terms" element={<Terminos lang="en" />} />
+        <Route path="/eliminar-cuenta" element={<EliminarCuenta lang="es" />} />
+        <Route path="/delete-account" element={<EliminarCuenta lang="en" />} />
         <Route path="/index.html" element={<Navigate to="/" replace />} />
         <Route path="/privacidad.html" element={<Navigate to="/privacidad" replace />} />
         <Route path="/terminos.html" element={<Navigate to="/terminos" replace />} />

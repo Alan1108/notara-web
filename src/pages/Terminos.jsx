@@ -73,7 +73,7 @@ function BodyEs() {
 
       <section id="responsabilidad"><h2>Limitación de responsabilidad</h2><p>En la medida en que la ley lo permita, Notara se ofrece "tal cual" y no respondemos por pérdidas indirectas, por datos que solo existían en un dispositivo perdido o dañado, ni por decisiones tomadas con base en resultados de la IA. Nuestra responsabilidad total no superará lo que hayas pagado por Notara en los 12 meses anteriores. Nada de esto limita los derechos que te da la ley de protección al consumidor de tu país.</p></section>
 
-      <section id="terminacion"><h2>Cierre de cuenta</h2><p>Puedes dejar de usar Notara y borrar tu cuenta cuando quieras desde la app. Recuerda cancelar también tu suscripción en la tienda. Podemos cerrar tu cuenta si incumples estos términos; si lo hacemos sin una causa grave, te avisaremos antes y podrás descargar tus datos.</p></section>
+      <section id="terminacion"><h2>Cierre de cuenta</h2><p>Puedes dejar de usar Notara y borrar tu cuenta cuando quieras desde la app. Recuerda cancelar también tu suscripción en la tienda. Podemos cerrar tu cuenta si incumples estos términos; si lo hacemos sin una causa grave, te avisaremos antes y podrás pedirnos una copia de tus datos.</p></section>
 
       <section id="ley"><h2>Ley aplicable</h2><p>Estos términos se rigen por las leyes de Ecuador. Cualquier disputa se resolverá ante los tribunales de Quito, sin perjuicio de los derechos que tengas como consumidor en tu país.</p></section>
 
@@ -117,7 +117,7 @@ function BodyEn() {
 
       <section id="responsabilidad"><h2>Limitation of liability</h2><p>To the extent the law allows, Notara is provided "as is" and we are not liable for indirect losses, for data that existed only on a lost or damaged device, or for decisions made based on AI results. Our total liability will not exceed what you paid for Notara in the previous 12 months. Nothing here limits the rights that your country's consumer protection law gives you.</p></section>
 
-      <section id="terminacion"><h2>Closing your account</h2><p>You can stop using Notara and delete your account whenever you want from the app. Remember to also cancel your subscription in the store. We may close your account if you break these terms; if we do so without a serious cause, we will notify you first and you will be able to download your data.</p></section>
+      <section id="terminacion"><h2>Closing your account</h2><p>You can stop using Notara and delete your account whenever you want from the app. Remember to also cancel your subscription in the store. We may close your account if you break these terms; if we do so without a serious cause, we will notify you first and you will be able to ask us for a copy of your data.</p></section>
 
       <section id="ley"><h2>Governing law</h2><p>These terms are governed by the laws of Ecuador. Any dispute will be resolved before the courts of Quito, without prejudice to the rights you have as a consumer in your country.</p></section>
 
