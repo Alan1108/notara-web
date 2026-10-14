@@ -157,7 +157,7 @@ export const HOME = {
           <><b>Exportación</b> de notas (pronto)</>,
         ],
       },
-      student: <><b>Estudiantes: 40% de descuento</b> con tu correo escolar. Precios en USD; en Latinoamérica verás precios locales. Consulta los <Link to="/terminos" style={{ color: 'var(--on)' }}>términos de la suscripción</Link>.</>,
+      student: <>{/* Student discount hidden for now: <b>Estudiantes: 40% de descuento</b> con tu correo escolar. */}Precios en USD; en Latinoamérica verás precios locales. Consulta los <Link to="/terminos" style={{ color: 'var(--on)' }}>términos de la suscripción</Link>.</>,
     },
     faq: {
       eyebrow: 'Preguntas',
@@ -168,7 +168,8 @@ export const HOME = {
         ['¿Cuándo se recargan los límites gratis?', 'Cada semana. Tienes 3 resúmenes o quizzes con IA y 5 preguntas al chat por semana, y la app te muestra cuántos te quedan.'],
         ['¿Si llego al límite, se corta mi grabación?', 'Nunca. La grabación y la transcripción siguen siendo gratis; el límite solo aplica a la IA.'],
         ['¿En qué idiomas funciona?', 'En español e inglés. Puedes grabar en un idioma y recibir el resumen en el otro.'],
-        ['¿Cómo obtengo el descuento de estudiante?', 'Verifica tu correo escolar desde la app y el 40% se aplica al plan mensual o anual.'],
+        // Student discount hidden for now
+        // ['¿Cómo obtengo el descuento de estudiante?', 'Verifica tu correo escolar desde la app y el 40% se aplica al plan mensual o anual.'],
       ],
     },
     final: {
@@ -333,7 +334,7 @@ export const HOME = {
           <><b>Export</b> your notes (coming soon)</>,
         ],
       },
-      student: <><b>Students: 40% off</b> with your school email. Prices in USD; in Latin America you'll see local prices. See the <Link to="/terms" style={{ color: 'var(--on)' }}>subscription terms</Link>.</>,
+      student: <>{/* Student discount hidden for now: <b>Students: 40% off</b> with your school email. */}Prices in USD; in Latin America you'll see local prices. See the <Link to="/terms" style={{ color: 'var(--on)' }}>subscription terms</Link>.</>,
     },
     faq: {
       eyebrow: 'FAQ',
@@ -344,7 +345,8 @@ export const HOME = {
         ['When do the free limits refill?', 'Every week. You get 3 AI summaries or quizzes and 5 chat questions per week, and the app shows how many you have left.'],
         ['If I hit the limit, does my recording stop?', 'Never. Recording and transcription stay free; the limit only applies to AI.'],
         ['What languages does it support?', 'Spanish and English. You can record in one language and get the summary in the other.'],
-        ['How do I get the student discount?', 'Verify your school email in the app and the 40% applies to the monthly or yearly plan.'],
+        // Student discount hidden for now
+        // ['How do I get the student discount?', 'Verify your school email in the app and the 40% applies to the monthly or yearly plan.'],
       ],
     },
     final: {

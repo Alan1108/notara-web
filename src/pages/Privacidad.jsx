@@ -70,7 +70,7 @@ function BodyEs() {
 
       <section id="para-que"><h2>Para qué usamos tus datos</h2><ul>
         <li><strong>Darte el servicio:</strong> transcribir, generar resúmenes y material de estudio, responder en el chat, organizar y sincronizar tus notas.</li>
-        <li><strong>Gestionar tu cuenta y tu suscripción,</strong> incluidos los límites semanales del plan gratis y la verificación del descuento de estudiante.</li>
+        <li><strong>Gestionar tu cuenta y tu suscripción,</strong> incluidos los límites semanales del plan gratis.{/* Student discount hidden for now: y la verificación del descuento de estudiante. */}</li>
         <li><strong>Personalizar la app</strong> con tus respuestas de "Sobre ti", por ejemplo el modo sugerido y "Para hoy".</li>
         <li><strong>Mejorar Notara y mantenerla segura</strong> con estadísticas anónimas y reportes de errores.</li>
         <li><strong>Atenderte</strong> cuando nos escribes y avisarte de cambios importantes.</li>
@@ -153,7 +153,7 @@ function BodyEn() {
 
       <section id="para-que"><h2>What we use your data for</h2><ul>
         <li><strong>To provide the service:</strong> transcribing, generating summaries and study material, answering in the chat, organizing and syncing your notes.</li>
-        <li><strong>To manage your account and subscription,</strong> including the free plan's weekly limits and student discount verification.</li>
+        <li><strong>To manage your account and subscription,</strong> including the free plan's weekly limits.{/* Student discount hidden for now: and student discount verification. */}</li>
         <li><strong>To personalize the app</strong> with your "About you" answers, for example the suggested mode and "For today".</li>
         <li><strong>To improve Notara and keep it secure</strong> with anonymous statistics and error reports.</li>
         <li><strong>To help you</strong> when you write to us and to let you know about important changes.</li>

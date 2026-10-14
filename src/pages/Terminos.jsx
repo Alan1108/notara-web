@@ -53,7 +53,7 @@ function BodyEs() {
 
       <section id="planes"><h2>Planes, pagos y prueba gratis</h2>
         <h3>Plan gratis</h3><p>Grabar y transcribir en tu teléfono no tiene límite. La IA en la nube incluye 3 resúmenes o quizzes y 5 preguntas al chat por semana; los límites se reinician cada semana y los que no uses no se acumulan.</p>
-        <h3>Notara Pro</h3><p>Pro quita los límites de la IA e incluye modo privado y sincronización. Cuesta $7.99 USD al mes o $59.99 USD al año, o su equivalente en precios locales que verás en la tienda antes de pagar. Los estudiantes verificados tienen 40% de descuento.</p>
+        <h3>Notara Pro</h3><p>Pro quita los límites de la IA e incluye modo privado y sincronización. Cuesta $7.99 USD al mes o $59.99 USD al año, o su equivalente en precios locales que verás en la tienda antes de pagar.{/* Student discount hidden for now: Los estudiantes verificados tienen 40% de descuento. */}</p>
         <h3>Prueba gratis</h3><p>El plan anual incluye 3 días gratis. Si no cancelas al menos 24 horas antes de que termine la prueba, se cobra el primer año.</p>
         <h3>Renovación y cancelación</h3><p>Las suscripciones se renuevan solas al final de cada periodo, salvo que las canceles al menos 24 horas antes. El cobro, la cancelación y los reembolsos los gestionan Apple (App Store) o Google (Google Play) con sus propias reglas, desde los ajustes de tu cuenta en la tienda. Cancelar no borra tus notas; sigues con el plan gratis.</p>
         <h3>Cambios de precio</h3><p>Si cambiamos el precio, te avisaremos antes de tu siguiente renovación y podrás cancelar.</p>
@@ -97,7 +97,7 @@ function BodyEn() {
 
       <section id="planes"><h2>Plans, payments and free trial</h2>
         <h3>Free plan</h3><p>Recording and transcribing on your phone has no limit. Cloud AI includes 3 summaries or quizzes and 5 chat questions per week; the limits reset every week and unused ones don't carry over.</p>
-        <h3>Notara Pro</h3><p>Pro removes the AI limits and includes private mode and sync. It costs $7.99 USD per month or $59.99 USD per year, or the equivalent in local prices that you'll see in the store before paying. Verified students get 40% off.</p>
+        <h3>Notara Pro</h3><p>Pro removes the AI limits and includes private mode and sync. It costs $7.99 USD per month or $59.99 USD per year, or the equivalent in local prices that you'll see in the store before paying.{/* Student discount hidden for now: Verified students get 40% off. */}</p>
         <h3>Free trial</h3><p>The yearly plan includes 3 free days. If you don't cancel at least 24 hours before the trial ends, the first year is charged.</p>
         <h3>Renewal and cancellation</h3><p>Subscriptions renew automatically at the end of each period unless you cancel at least 24 hours before. Billing, cancellation and refunds are handled by Apple (App Store) or Google (Google Play) under their own rules, from your account settings in the store. Cancelling doesn't delete your notes; you stay on the free plan.</p>
         <h3>Price changes</h3><p>If we change the price, we will let you know before your next renewal and you can cancel.</p>
