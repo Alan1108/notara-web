@@ -55,4 +55,4 @@ Que un abogado revise ambos textos en los dos idiomas, en especial:
 - Prueba gratis de 3 días; cancelar al menos 24 horas antes de que termine
 - Borrado de la cuenta en 30 días; copias de seguridad en 90 días
 - Tope de responsabilidad: lo pagado en los últimos 12 meses
-- Fechas: vigente desde el 12 de octubre de 2026; última actualización el 11 de octubre de 2026
+- Fechas: vigente desde el 12 de octubre de 2026; última actualización el 3 de noviembre de 2026
