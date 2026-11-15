@@ -143,7 +143,7 @@ export default function Home() {
               <p className="lead">{t.hero.lead}</p>
               <div className="cta-row">
                 <a className="btn btn-primary" href="#descargar"><Icon href="#i-apple" />{t.hero.appStore}</a>
-                <a className="btn btn-ghost" href="#descargar"><Icon href="#i-play" />{t.hero.googlePlay}</a>
+                <a className="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.notara.notara&pcampaignid=web_share"><Icon href="#i-play" />{t.hero.googlePlay}</a>
               </div>
               <div className="mode-pick">
                 <small>{t.hero.pick}</small>
@@ -387,7 +387,7 @@ export default function Home() {
             <h2>{t.final.title}</h2>
             <div className="cta-row">
               <a className="btn btn-primary" href="#top"><Icon href="#i-apple" />{t.hero.appStore}</a>
-              <a className="btn btn-ghost" href="#top"><Icon href="#i-play" />{t.hero.googlePlay}</a>
+              <a className="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.notara.notara&pcampaignid=web_share"><Icon href="#i-play" />{t.hero.googlePlay}</a>
             </div>
             <small>{t.final.small}</small>
           </div>
